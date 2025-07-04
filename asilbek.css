@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+.topbar {
+  background: #fff;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.post-btn {
+  background: #fff;
+  color: orange;
+  border: 2px solid orange;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.shop-title {
+  display: flex;
+  align-items: center;
+}
+
+.shop-title img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 14px;
+  background: #0014c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.items-grid {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.item h3 {
+  margin: 10px 0 5px;
+}
+
+.item p {
+  font-weight: bold;
+  color: #ff9900;
+  margin: 5px 0;
+}
+
+.item span {
+  font-size: 13px;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
